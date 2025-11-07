@@ -1,7 +1,7 @@
 # Creative Thinking Assessment
 
 ## Overview  
-This repository houses the codebase and prompt materials developed as part of the *Creative Thinking Assessment* research project. It includes data processing pipelines, computational scripts, and evaluation prompt templates designed to analyse, classify, and interpret responses related to creative thinking in educational and experimental contexts.
+This repository houses the codebase and prompt materials developed as part of the *Creative Thinking Assessment* of PISA test research. It includes computational scripts and evaluation prompt templates designed to analyse, classify, and interpret responses related to creative thinking in educational and experimental contexts.
 
 ## Project Structure  
 - **Notebooks (.ipynb):** Implementation of various modelling approaches (e.g., BERT, DistilBERT, RoBERTa, SVM).  
