@@ -13,22 +13,16 @@ This repository houses the codebase and prompt materials developed as part of th
 - Jupyter Notebook / Jupyter Lab  
 - Key libraries: `transformers`, `scikit-learn`, `pandas`, `numpy` 
 
-### Setup  
-```bash
-# Clone the repository  
-git clone https://github.com/ricelli/creative-thinking-assessment.git  
-cd creative-thinking-assessment  
-
-##Usage
+## Usage
 Open the notebook corresponding to your modelling choice (e.g., DistilBERT.ipynb).
 Run the data preparation section: load datasets, apply pre-processing, feature extraction.
 Execute model training, validation and evaluation.
 Explore the prompt-sets (PDFs) to review how the assessment prompts were structured and used.
 
-##Research Context
+## Research Context
 This project addresses the assessment of creative thinking by combining prompt-design (to evoke creative responses) and computational modelling (to classify and interpret those responses). The aim is to support both experimental investigations and educational applications in measuring creativity within textual responses.
 
-##Contributing
+## Contributing
 Contributions are welcome. If you wish to add new models, extend prompt sets, include further data or suggest improvements, please:
 Fork the repository
 Create a new branch for your feature
