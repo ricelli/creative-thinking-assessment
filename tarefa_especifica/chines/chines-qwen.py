@@ -35,14 +35,14 @@ from collections import Counter, defaultdict
 # ============================================================
 
 PASTA_XML = (
-    "/home/ricelli/Documentos/Doutorado/"
-    "Arquivos OECS-20250827T193412Z-1-001/"
-    "Arquivos OECS/2022MS-responsesXML/"
-    "2022MS/chines"
+    "/home/..."
+    "Arquivos OECS.../"
+    "Arquivos OECS.../"
+    "2022/chines"
 )
 
 ARQUIVO_SAIDA = (
-    "/home/ricelli/Documentos/Doutorado/"
+    "/home.../"
     "amostra_chines_qwen.csv"
 )
 
