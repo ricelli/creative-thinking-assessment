@@ -5,10 +5,10 @@
 Experimento MAoSS/CAP — respostas chinesas do PISA 2022.
 
 Entrada:
-  ~/Documentos/Doutorado/amostra_chines_qwen.csv
+  ~/Documentos/...
 
 Estímulos em inglês:
-  Arquivo enunciados_pisa_ingles.csv do experimento MAoSS em inglês.
+  Arquivo ... do experimento MAoSS em inglês.
 
 Etapas:
   preparar -> gera CSV para envio manual à CAP
@@ -24,19 +24,12 @@ import math
 import sys
 import argparse
 
-BASE = Path.home() / "Documentos" / "Doutorado"
+BASE = Path.home() / "Documentos" / "..."
 INPUT = BASE / "amostra_chines_qwen.csv"
 
 ENGLISH_PROMPTS = (
     BASE
-    / "Arquivos OECS-20250827T193412Z-1-001"
-    / "Arquivos OECS"
-    / "2022MS-responsesXML"
-    / "2022MS"
-    / "ingles"
-    / "amostra_qwen"
-    / "maoss_experimento"
-    / "enunciados_pisa_ingles.csv"
+    / "Arquivos "
 )
 
 OUT = BASE / "maoss_experimento_chines"
