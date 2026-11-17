@@ -5,13 +5,13 @@
 Executa o Qwen3:14b sobre a amostra chinesa do OECS/PISA 2022.
 
 Entrada:
-    /home/ricelli/Documentos/Doutorado/amostra_chines_qwen.csv
+    /home/...
 
 Prompts:
-    /home/ricelli/Documentos/Doutorado/prompt-testes-qwen/TxxxQyy.txt
+    /home/...
 
 Saída:
-    /home/ricelli/Documentos/Doutorado/resultados_chines_qwen/
+    /home/...
 
 Características:
 - Usa somente bibliotecas da biblioteca padrão do Python.
@@ -39,15 +39,15 @@ from pathlib import Path
 # ============================================================
 
 ARQUIVO_AMOSTRA = Path(
-    "/home/ricelli/Documentos/Doutorado/amostra_chines_qwen.csv"
+    "/home/..."
 )
 
 PASTA_PROMPTS = Path(
-    "/home/ricelli/Documentos/Doutorado/prompt-testes-qwen"
+    "/home/..."
 )
 
 PASTA_SAIDA = Path(
-    "/home/ricelli/Documentos/Doutorado/resultados_chines_qwen"
+    "/home/..."
 )
 
 OLLAMA = "/usr/local/bin/ollama"
