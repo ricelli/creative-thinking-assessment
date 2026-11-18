@@ -44,13 +44,12 @@ COMBINACOES = [
     "peninsula_iberica",
     "todos",
 ]
-BASE_AMOSTRAS = Path.home() / "Documentos/Doutorado/resultados_experimentos_qwen_oecs"
+BASE_AMOSTRAS = Path.home() / "Documentos/..."
 BASE_ENUNCIADOS = (
-    Path.home() / "Documentos/Doutorado/Arquivos OECS-20250827T193412Z-1-001/"
-    "Arquivos OECS/2022MS-responsesXML/2022MS/ingles/amostra_qwen/maoss_experimento"
+    Path.home() / "Documentos/..."
 )
 ARQUIVO_ENUNCIADOS = BASE_ENUNCIADOS / "enunciados_pisa_ingles.csv"
-PASTA_SAIDA = Path.home() / "Documentos/Doutorado/maoss_google_portugues_espanhol"
+PASTA_SAIDA = Path.home() / "Documentos/..."
 SEED_CV = 20261015
 
 
