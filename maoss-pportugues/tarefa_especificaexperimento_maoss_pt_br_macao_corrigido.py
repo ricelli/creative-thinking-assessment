@@ -12,9 +12,9 @@ Uso:
   python3 experimento_maoss_pt_br_macao.py tudo --resultados caminho/resultado_maoss.csv
 
 Entradas:
-  ~/Documentos/Doutorado/dataset-pt/dataset/pt_eii.csv
-  ~/Documentos/Doutorado/dataset-pt/dataset/pt_gci.csv
-  ~/Documentos/Doutorado/dataset-pt/dataset/pt_gdi.csv
+  ~/pt_eii.csv
+  ~/pt_gci.csv
+  ~/t_gdi.csv
 
 Usa somente source=test, code0_3 nas classes 1 e 2, e response_US
 (já traduzida). Os enunciados em inglês são reutilizados de
@@ -53,14 +53,8 @@ INPUT_FILES = {
 }
 PROMPTS_FILE = (
     BASE
-    / "Arquivos OECS-20250827T193412Z-1-001"
-    / "Arquivos OECS"
-    / "2022MS-responsesXML"
-    / "2022MS"
-    / "ingles"
-    / "amostra_qwen"
-    / "maoss_experimento"
-    / "enunciados_pisa_ingles.csv"
+    / "Arquivos ..."
+
 )
 QUESTOES_GCI = ["T240Q01", "T300Q01", "T350Q01", "T360Q01", "T370Q01", "T570Q02"]
 QUESTOES_GDI = ["T240Q02", "T300Q02", "T350Q02", "T570Q01"]
