@@ -68,14 +68,7 @@ OUTPUT_ROOT = BASE / "resultados_experimentos_maoss_traduzido"
 
 PROMPTS_FILE = (
     BASE
-    / "Arquivos OECS-20250827T193412Z-1-001"
-    / "Arquivos OECS"
-    / "2022MS-responsesXML"
-    / "2022MS"
-    / "ingles"
-    / "amostra_qwen"
-    / "maoss_experimento"
-    / "enunciados_pisa_ingles.csv"
+    / "Arquivos ..."
 )
 
 COMBINACOES = [
