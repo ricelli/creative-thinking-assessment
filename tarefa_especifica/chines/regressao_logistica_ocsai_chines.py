@@ -32,7 +32,7 @@ from collections import Counter
 # ============================================================
 
 PASTA_ENTRADA = Path(
-    "/home/ricelli/Documentos/Doutorado/"
+    "/home/..."
     "resultados_chines_ocsai"
 )
 
