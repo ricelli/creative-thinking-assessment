@@ -6,8 +6,8 @@ import translators as ts
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
 
-BASE_DIR = "/home/ricelli/Documentos/Doutorado/resultados_experimentos_qwen_oecs"
-OUTPUT_DIR = "/home/ricelli/Documentos/Doutorado/resultados_experimentos_qwen_oecs_traduzido"
+BASE_DIR = "/home/..."
+OUTPUT_DIR = "/home/..."
 LOG_FILE = os.path.join(OUTPUT_DIR, "erros_traducao.log")
 
 # 2 workers mantém a velocidade boa sem gerar bloqueios de IP
