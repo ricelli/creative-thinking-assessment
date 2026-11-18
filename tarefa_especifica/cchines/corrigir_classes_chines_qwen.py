@@ -20,7 +20,7 @@ from collections import Counter
 
 
 PASTA = Path(
-    "/home/ricelli/Documentos/Doutorado/"
+    "/home/.../"
     "resultados_chines_qwen"
 )
 
