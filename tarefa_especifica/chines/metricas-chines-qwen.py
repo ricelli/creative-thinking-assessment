@@ -25,7 +25,7 @@ from collections import Counter
 # ============================================================
 
 PASTA_RESULTADOS = Path(
-    "/home/ricelli/Documentos/Doutorado/"
+    "/home/..."
     "resultados_chines_qwen"
 )
 
