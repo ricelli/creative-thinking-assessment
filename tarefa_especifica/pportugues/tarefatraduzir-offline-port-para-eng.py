@@ -5,8 +5,8 @@ import argostranslate.package
 import argostranslate.translate
 
 # Caminhos dos diretórios
-BASE_DIR = "/home/ricelli/Documentos/Doutorado/resultados_experimentos_qwen_oecs"
-OUTPUT_DIR = "/home/ricelli/Documentos/Doutorado/resultados_experimentos_qwen_oecs_traduzido"
+BASE_DIR = "/home/..."
+OUTPUT_DIR = "/home/..."
 
 def carregar_modelo_traducao():
     """
