@@ -5,10 +5,10 @@
 Baseline OCSAI 2 para a amostra chinesa do PISA 2022.
 
 Entrada:
-    /home/ricelli/Documentos/Doutorado/amostra_chines_qwen.csv
+    /home/.../amostra_chines_qwen.csv
 
 Saída:
-    /home/ricelli/Documentos/Doutorado/resultados_chines_ocsai/
+    /home/.../resultados_chines_ocsai/
 
 Características:
 - Usa somente a biblioteca padrão do Python.
@@ -36,12 +36,12 @@ from pathlib import Path
 # ============================================================
 
 ARQUIVO_ENTRADA = Path(
-    "/home/ricelli/Documentos/Doutorado/"
+    "/home/.../"
     "amostra_chines_qwen.csv"
 )
 
 PASTA_SAIDA = Path(
-    "/home/ricelli/Documentos/Doutorado/"
+    "/home/.../"
     "resultados_chines_ocsai"
 )
 
@@ -95,100 +95,40 @@ DIMENSOES = {
 
 ESTIMULOS = {
     "T350Q03": (
-        "Escreva uma continuação para a história abaixo, com base "
-        "na história e na imagem da capa do livro que possui uma "
-        "árvore frondosa e três pessoas com guarda-chuvas abertos "
-        "caminhando ao lado. É possível ver a sombra das árvores "
-        "e também das pessoas no solo, e o céu amarelado com poucas "
-        "nuvens, dando a entender que estão caminhando no fim do dia.\n\n"
-        "Esse é o início da história: "
-        '"Dois homens e uma mulher que não se conheciam encontraram '
-        "abrigo sob a mesma árvore. Quando começaram a conversar, "
-        "descobriram que todos tinham um olho castanho, um olho azul, "
-        "não conheciam seus pais e podiam ler a mente de outras pessoas. "
-        "Eles concluíram que tinham que ser parentes de alguma forma "
-        'e decidiram fazer uma jornada para descobrir de onde todos eles vieram."'
+        "..."'
     ),
     "T350Q01": (
-        "Escrever uma ideia original de enredo para um livro através "
-        "do estímulo: uma capa de livro que contém um astronauta "
-        "olhando para o céu em tons de laranja, rosa e azul, e uma "
-        "nave espacial pousada ao lado. O solo é árido, porém apresenta "
-        "um espaço verde atrás, é cercado de montanhas ou estruturas "
-        "pedregosas e no céu é possível visualizar um astro se pondo."
+        "..."
     ),
     "T240Q01": (
-        "Gerar diálogos para uma história em quadrinhos com quatro "
-        "quadros e seis caixinhas de diálogo entre o Sol e a Terra "
-        "com o separador X|X."
+        "..."
     ),
     "T570Q02": (
-        "Escrever uma continuação de um diálogo para o seguinte item: "
-        '"Seu amigo sugere uma ideia de história de filme em que Rob '
-        "(o robô) poderia ter uma aparência e sentimentos humanos. "
-        "No filme, Rob está disfarçando sua verdadeira identidade e "
-        "tentando viver uma vida humana. Você decide desenvolver essa "
-        "ideia mais a fundo e começa a trabalhar no roteiro do filme. "
-        "Em uma cena-chave, Leo descobre que Rob é um robô. Então, Rob "
-        'revela que há algo que Leo não sabe. Escreva uma continuação '
-        'original para o diálogo entre Rob e Leo."\n\n'
-        "Leo: Você mentiu para mim esse tempo todo! Isso precisa parar "
-        "agora ou eu vou contar a todo mundo quem você realmente é.\n"
-        "Rob: Espere! Tem algo que você não sabe...\n"
-        "Rob:Leo:"
+        "..."
     ),
     "T300Q01": (
-        "Dar um título adequado para uma imagem que contém o planeta "
-        "Terra dentro do bulbo de uma lâmpada redonda."
+        "..."
     ),
     "T570Q01": (
-        "Escreva 2 ideias diferentes de histórias de filmes sobre "
-        "um humano chamado Leo, que interage com um robô inteligente "
-        "chamado Rob. Você não precisa escrever a história completa "
-        "do filme, apenas explicar sobre o que será o filme. As duas "
-        "histórias devem ser tão diferentes uma da outra quanto "
-        "possível separadas por X|X."
+        "..."
     ),
     "T570Q03": (
-        "Escreva um final alternativo para o filme com base na ideia "
-        "de que Rob conseguiu convencer Leo a não revelar sua "
-        "identidade robótica a ninguém.\n\n"
-        "Rob consegue convencer Leo a não revelar sua identidade "
-        "robótica a ninguém. O robô e o humano se tornam melhores "
-        "amigos. Leo ajuda Rob a se comportar ainda mais como um "
-        "humano. Para preservar seu segredo, os dois amigos decidem "
-        "começar uma nova vida em uma nova cidade onde ninguém os conhece."
+        "..."
     ),
     "T350Q02": (
-        "Escrever duas histórias diferentes separadas por X|X para "
-        "uma capa de livro que contém um balão de ar quente de estilo "
-        "antigo, com uma grande esfera vermelha como o balão principal. "
-        "Abaixo do balão, há uma estrutura com asas semelhantes a "
-        "penas ou velas, junto com uma pequena cesta onde duas pessoas "
-        "parecem estar posicionadas. O design remete a invenções aéreas "
-        "do século XIX, com um estilo ilustrativo e detalhado. O fundo é azul claro."
+        "..."
     ),
     "T300Q02": (
-        "Geração de títulos para uma ilustração tão diferentes entre "
-        "si quanto possível com o separador X|X. A ilustração possui "
-        "um livro aberto sem nada escrito e páginas amarelas em um "
-        "campo com céu claro e com nuvens, grama no solo, uma árvore "
-        "e uma cadeira de madeira vazia."
+        "..."
     ),
     "T240Q02": (
-        "Gerar diálogos para uma história em quadrinhos com quatro "
-        "quadros e seis caixinhas de diálogo entre o Sol e a Terra "
-        "com o separador X|X."
+        "..."
     ),
     "T370Q01": (
-        'Escrever uma ideia original de enredo para um livro através '
-        'do estímulo: uma capa de livro vermelho com letras maiúsculas '
-        'brancas escrito "2983".'
+        '...'
     ),
     "T360Q01": (
-        'Escrever uma ideia original de enredo para um livro através '
-        'do estímulo: uma capa de livro vermelho com letras maiúsculas '
-        'brancas escrito "andar para trás".'
+        '...'
     ),
 }
 
