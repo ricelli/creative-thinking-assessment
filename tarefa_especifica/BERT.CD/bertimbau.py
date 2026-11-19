@@ -5,10 +5,10 @@
 # Esperado:
 #
 # TREINO:
-#   Cross-target-T350Q03-BERT-treino - Página1.csv
+#   Cross-target-TREINO.csv
 #
 # TESTE:
-#   T350Q03-2-BERT-teste - Página1.csv
+#   Cross-target-teste.csv
 #
 # Colunas:
 #   Texto  -> response
