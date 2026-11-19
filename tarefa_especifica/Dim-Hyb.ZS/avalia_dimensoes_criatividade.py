@@ -17,8 +17,8 @@ from tqdm import tqdm
 PROJECT_ID = "project-c9a2046f-e587-4668-a90"
 LOCATION = "us-central1"
 
-PROMPT_FILE = "Avaliação de criatividade por dimensão na tarefa GDI.txt"
-DATASET_FILE = "pt_gdi_dimensoes.csv"
+PROMPT_FILE = "Avaliação de criatividade por dimensão na tarefa XPTO.txt"
+DATASET_FILE = "pt_XPTO_dimensoes.csv"
 
 QUESTION_FILES = {
     "T240Q02": "T240Q02.txt",
