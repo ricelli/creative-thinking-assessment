@@ -18,7 +18,7 @@ from sklearn.metrics import (
 # CONFIGURAÇÃO
 # ============================================================
 
-PASTA = "/home/ricelli/testes-quen/Creat-Hyb"
+PASTA = "/home/..."
 
 ARQUIVO_DADOS = os.path.join(
     PASTA,
