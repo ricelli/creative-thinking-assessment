@@ -1,0 +1,24 @@
+﻿Considere um cenário em que deve-se escrever uma continuação de um diálogo para o seguinte item:
+“<omitido em função de confidencialidade>”
+
+
+Neste cenário, dado um texto $t$, indique em uma escala de 0..10 se cada uma das ideias a seguir é expressa de forma direta ou indireta no texto $t$, em que 0 indica que não existe nenhum indício de que a ideia seja expressa no texto $t$, e 10 indica que a ideia está claramente expressa no texto $t$. Além disso, ao atribuir o escore de 0..10 para cada ideia avaliada, explique brevemente (máximo 20 palavras) o porquê do escore atribuído, enfatizando os aspectos do texto $t$ que levaram a este resultado.  Você deve avaliar um único texto $t$ de cada vez.
+
+
+Texto t a ser avaliado: {frase_usuario}
+
+
+
+
+Aqui está a lista de ideias:
+Ideia 1: <omitido em função de confidencialidade>
+Ideia 2: <omitido em função de confidencialidade>
+Ideia 3: <omitido em função de confidencialidade>
+Ideia 4: <omitido em função de confidencialidade>
+Ideia 5: <omitido em função de confidencialidade>
+Ideia 6: <omitido em função de confidencialidade>
+Ideia 7: <omitido em função de confidencialidade>
+Ideia 8: <omitido em função de confidencialidade>
+
+
+Você deve gerar como resultado apenas uma tabela de 3 colunas contendo o código do item avaliado, o escore 0..10 atribuído e a explicação da resposta.
